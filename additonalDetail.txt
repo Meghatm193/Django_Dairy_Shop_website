@@ -1,0 +1,13 @@
+superuser - root - Root@123
+forgot username - 
+>python manage.py shell
+>from django.contrib.auth  import get_user_model
+>list(get_user_model().objects.filter(is_superuser=True).values_list('username', flat=True))
+
+
+change superuser password- 
+>python manage.py changepassword [username]
+
+
+to use razorpay account:-
+>pip install razorpay

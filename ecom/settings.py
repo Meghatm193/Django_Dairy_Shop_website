@@ -125,15 +125,7 @@ LOGIN_REDIRECT_URL = '/profile/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST='smtp.gmail.com'
-# EMAIL_USE_TLS = True
-# EMAIL_PORT = 587
-# EMAIL_HOST_USER = 'email'
-# EMAIL_HOST_PASSWORD = 'password'
 
-RAZOR_KEY_ID = "rzp_test_WT99OUJltfMj5f"
-RAZOR_KEY_SECRET = "hf9VTkNpvQSxzUvg2obtyZ8Q"
+RAZOR_KEY_ID = "rzp_test_WT99OUJltuui9k"
+RAZOR_KEY_SECRET = "hf9VTkNpvQSxz5457"
